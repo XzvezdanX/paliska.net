@@ -7,14 +7,15 @@
 body {
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 100mm);
+  grid-template-rows: repeat(2, 30mm);
   justify-content: center;
   align-items: center;
   background-image: url("new-back.png");
   background-size: 100% 100%;
-  padding-top: 400px;
+  padding-top: 450px;
   overflow: hidden;
+  background-color: #363a3f;
 }
 
 .wrapper {
@@ -23,16 +24,18 @@ body {
 }
 
 .cta {
-    display: flex;
-    padding: 10px 45px;
+    display: inherit;
+    padding: 10px 20px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     color: lightgray;
-    background: #23344E;
+    background: #35393E;
     transition: 1s;
     box-shadow: 6px 6px 0 black;
     transform: skewX(-15deg);
+    justify-content: stretch;
+    align-content: center;
 }
 
 .cta:focus {
@@ -60,7 +63,7 @@ body {
 
   span:nth-child(2) {
     width: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     position: relative;
     top: 12%;
   }
