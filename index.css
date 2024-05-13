@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("new-back.png");
-  background-size: 100% 100%;
+  background-size: cover;
   padding-top: 450px;
   overflow: hidden;
   background-color: #363a3f;
