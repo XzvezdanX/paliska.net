@@ -15,13 +15,13 @@ body {
 	background: linear-gradient(to bottom, #2e2e2e, #1F1F1F); /*fiolet*/
 }
 .container {
-	width: 2000px;
+	width: 1500px;
 	display: grid;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 150px 150px;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 300px;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
