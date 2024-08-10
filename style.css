@@ -138,6 +138,23 @@ body {
 .text {
     position: fixed;
     margin-bottom: 500px;
+	margin-right: 50px;
     font-size: 180px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.status {
+	position: fixed;
+	align-self: center;
+	margin-top: 800px;
+	display: grid;
+	font-weight: bold;
+	grid-template-columns: 120px 120px 120px 120px 120px;
+	grid-template-rows: 50px;
+	text-align: center;
+	width: 100px;
+	color: #1eff45;
+	height: 50px;
+	justify-content: space-around;
+	margin-left: -500;
 }
